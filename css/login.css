@@ -1,0 +1,66 @@
+body {
+    font-family: 'JetBrains Mono';
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-family: 'JetBrains Mono';
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    font-family: 'JetBrains Mono';
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+.register-link {
+    text-align: right;
+    margin-top: 10px;
+}
+.register-link a {
+    text-decoration: none;
+    color: green;
+}

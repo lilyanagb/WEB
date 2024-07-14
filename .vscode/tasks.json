@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "hello",
+            "type": "shell",
+            "command": "echo hello",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build-c++",
+            "type": "shell",
+            "command": "g++",
+            "problemMatcher": []
+        }
+    ]
+  }
